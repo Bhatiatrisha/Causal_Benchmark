@@ -1,0 +1,13 @@
+dataset,estimator,mean_bias,abs_bias,rmse,n_samples
+lalonde_cps,AIPW (doubly robust),6607.99,6607.99,6625.14,100
+lalonde_cps,IPW,-6708.16,6708.16,6713.63,100
+lalonde_cps,Naive (diff-in-means),-2892.9,2892.9,2925.22,100
+lalonde_cps,OLS/ANCOVA,6579.17,6579.17,6595.35,100
+lalonde_psid,AIPW (doubly robust),12825.81,12825.81,12889.1,100
+lalonde_psid,IPW,-3860.38,3861.39,3938.17,100
+lalonde_psid,Naive (diff-in-means),-839.06,960.3,1131.84,100
+lalonde_psid,OLS/ANCOVA,14915.78,14915.78,14940.64,100
+twins,AIPW (doubly robust),-0.0,0.01,0.01,100
+twins,IPW,-0.0,0.01,0.01,100
+twins,Naive (diff-in-means),-0.04,0.04,0.04,100
+twins,OLS/ANCOVA,-0.0,0.01,0.01,100
